@@ -22,6 +22,8 @@ return [
     'Real time'             => '实时',
     'Category count'        => '分类统计',
     'Category count tips'   => '当前分类总记录数',
+    'Group count'        => '群组统计',
+    'Group count tips'   => '当前群组总记录数',
     'Attachment count'      => '附件统计',
     'Attachment count tips' => '当前上传的附件数量',
     'Article count'         => '文章统计',

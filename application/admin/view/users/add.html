@@ -1,0 +1,172 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label for="c-user_name" class="control-label col-xs-12 col-sm-2">{:__('User_name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-user_name" class="form-control" name="row[user_name]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-user_pwd" class="control-label col-xs-12 col-sm-2">{:__('User_pwd')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-user_pwd" class="form-control" name="row[user_pwd]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-salt" class="control-label col-xs-12 col-sm-2">{:__('Salt')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-salt" class="form-control" name="row[salt]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-create_at" class="control-label col-xs-12 col-sm-2">{:__('Create_at')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-create_at" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_at]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-update_at" class="control-label col-xs-12 col-sm-2">{:__('Update_at')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-update_at" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[update_at]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-coin" class="control-label col-xs-12 col-sm-2">{:__('Coin')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-coin" class="form-control" name="row[coin]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-creidt" class="control-label col-xs-12 col-sm-2">{:__('Creidt')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-creidt" class="form-control" name="row[creidt]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-userfrom" class="control-label col-xs-12 col-sm-2">{:__('Userfrom')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-userfrom" class="form-control" name="row[userfrom]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-face_url" class="control-label col-xs-12 col-sm-2">{:__('Face_url')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-face_url" class="form-control" name="row[face_url]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-last_time" class="control-label col-xs-12 col-sm-2">{:__('Last_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-last_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[last_time]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-last_ip" class="control-label col-xs-12 col-sm-2">{:__('Last_ip')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-last_ip" class="form-control" name="row[last_ip]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-qq" class="control-label col-xs-12 col-sm-2">{:__('Qq')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-qq" class="form-control" name="row[qq]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-weixin" class="control-label col-xs-12 col-sm-2">{:__('Weixin')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-weixin" class="form-control" name="row[weixin]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-sex" class="control-label col-xs-12 col-sm-2">{:__('Sex')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-sex" class="form-control" name="row[sex]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-type" class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-type" class="form-control" name="row[type]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-levels" class="control-label col-xs-12 col-sm-2">{:__('Levels')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-levels" class="form-control" name="row[levels]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-status" class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-status" class="form-control" name="row[status]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-regformstatus" class="control-label col-xs-12 col-sm-2">{:__('Regformstatus')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-regformstatus" class="form-control" name="row[regformstatus]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-noticeset" class="control-label col-xs-12 col-sm-2">{:__('Noticeset')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-noticeset" class="form-control" name="row[noticeset]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-nickname" class="control-label col-xs-12 col-sm-2">{:__('Nickname')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-nickname" class="form-control" name="row[nickname]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-province" class="control-label col-xs-12 col-sm-2">{:__('Province')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-province" class="form-control" name="row[province]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-city" class="control-label col-xs-12 col-sm-2">{:__('City')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class='control-relative'><input id="c-city" class="form-control" data-toggle="city-picker" name="row[city]" type="text"></div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-area" class="control-label col-xs-12 col-sm-2">{:__('Area')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-area" class="form-control" name="row[area]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-ordertotal" class="control-label col-xs-12 col-sm-2">{:__('Ordertotal')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-ordertotal" class="form-control" name="row[ordertotal]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-comefrom" class="control-label col-xs-12 col-sm-2">{:__('Comefrom')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-comefrom" class="form-control" name="row[comefrom]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-mobileverify" class="control-label col-xs-12 col-sm-2">{:__('Mobileverify')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-mobileverify" class="form-control" name="row[mobileverify]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-mobileuser" class="control-label col-xs-12 col-sm-2">{:__('Mobileuser')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-mobileuser" class="form-control" name="row[mobileuser]" type="number">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

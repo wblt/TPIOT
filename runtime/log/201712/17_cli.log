@@ -1,0 +1,110 @@
+[ 2017-12-17T12:54:34+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000069s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-17T12:54:34+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-17T12:54:34+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000893s ]
+[ 2017-12-17T12:54:40+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000068s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-17T12:54:40+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-17T12:54:40+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000606s ]
+[ 2017-12-17T12:54:40+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-17T12:54:40+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000303s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ 2017-12-17T12:54:40+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'group' [ RunTime:0.050611s ]
+[ 2017-12-17T12:54:40+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'sy_group' [ RunTime:0.000445s ]
+[ 2017-12-17T12:54:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000099s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-17T12:54:51+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-17T12:54:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000636s ]
+[ 2017-12-17T12:54:51+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-17T12:54:51+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000276s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ 2017-12-17T12:54:51+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_group' [ RunTime:0.000471s ]
+[ 2017-12-17T12:54:51+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'sy_user_group' [ RunTime:0.000329s ]
+[ 2017-12-17T12:55:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000071s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-17T12:55:14+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-17T12:55:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000724s ]
+[ 2017-12-17T12:55:14+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-17T12:55:14+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000247s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ 2017-12-17T12:55:14+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'groups' [ RunTime:0.000447s ]
+[ 2017-12-17T12:55:14+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'sy_groups' [ RunTime:0.000459s ]
+[ 2017-12-17T12:55:14+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'sy_groups' ORDER BY ORDINAL_POSITION [ RunTime:0.000691s ]
+[ 2017-12-17T12:55:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000222s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-17T12:55:44+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-17T12:55:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000951s ]
+[ 2017-12-17T12:55:44+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-17T12:55:44+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000266s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ 2017-12-17T12:55:44+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'group_user' [ RunTime:0.000415s ]
+[ 2017-12-17T12:55:44+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'sy_group_user' [ RunTime:0.000509s ]
+[ 2017-12-17T12:55:44+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'sy_group_user' ORDER BY ORDINAL_POSITION [ RunTime:0.000489s ]
+[ 2017-12-17T12:56:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000076s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-17T12:56:09+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-17T12:56:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000700s ]
+[ 2017-12-17T12:56:09+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-17T12:56:09+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000861s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ 2017-12-17T12:56:09+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'group_user' [ RunTime:0.000510s ]
+[ 2017-12-17T12:56:09+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'sy_group_user' [ RunTime:0.000407s ]
+[ 2017-12-17T12:56:09+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'sy_group_user' ORDER BY ORDINAL_POSITION [ RunTime:0.000495s ]
+[ 2017-12-17T13:01:17+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000072s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-17T13:01:17+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-17T13:01:17+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000602s ]
+[ 2017-12-17T13:01:17+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-17T13:01:17+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000289s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ 2017-12-17T13:01:17+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_data_log' [ RunTime:0.000394s ]
+[ 2017-12-17T13:01:17+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'sy_user_data_log' [ RunTime:0.000344s ]
+[ 2017-12-17T13:01:17+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'sy_user_data_log' ORDER BY ORDINAL_POSITION [ RunTime:0.000592s ]
+[ 2017-12-17T13:02:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000072s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-17T13:02:07+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-17T13:02:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000613s ]
+[ 2017-12-17T13:02:07+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-17T13:02:07+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000278s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ 2017-12-17T13:02:07+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'user_data_log' [ RunTime:0.000430s ]
+[ 2017-12-17T13:02:07+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'sy_user_data_log' [ RunTime:0.000388s ]
+[ 2017-12-17T13:02:07+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'sy_user_data_log' ORDER BY ORDINAL_POSITION [ RunTime:0.000503s ]
+[ 2017-12-17T13:50:40+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000081s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-17T13:50:40+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-17T13:50:40+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000825s ]
+[ 2017-12-17T13:50:40+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-17T13:50:40+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000272s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ 2017-12-17T13:50:40+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'wx_menu' [ RunTime:0.000565s ]
+[ 2017-12-17T13:50:40+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'sy_wx_menu' [ RunTime:0.000769s ]
+[ 2017-12-17T13:50:40+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'sy_wx_menu' ORDER BY ORDINAL_POSITION [ RunTime:0.000810s ]
+[ 2017-12-17T14:02:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.018197s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-17T14:02:44+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-17T14:02:45+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.020839s ]
+[ 2017-12-17T14:02:45+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-17T14:02:45+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000249s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ 2017-12-17T14:02:45+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'wx_user' [ RunTime:0.000449s ]
+[ 2017-12-17T14:02:45+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'sy_wx_user' [ RunTime:0.000386s ]
+[ 2017-12-17T14:02:45+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'sy_wx_user' ORDER BY ORDINAL_POSITION [ RunTime:0.023806s ]
+[ 2017-12-17T14:05:06+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000083s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-17T14:05:06+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-17T14:05:06+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000726s ]
+[ 2017-12-17T14:05:07+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-17T14:05:07+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000333s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ 2017-12-17T14:05:07+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'wx_user' [ RunTime:0.000637s ]
+[ 2017-12-17T14:05:07+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'sy_wx_user' [ RunTime:0.000546s ]
+[ 2017-12-17T14:05:07+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'sy_wx_user' ORDER BY ORDINAL_POSITION [ RunTime:0.000967s ]
+[ 2017-12-17T14:24:10+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000074s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-17T14:24:10+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-17T14:24:10+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000668s ]
+[ 2017-12-17T14:24:10+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-17T14:24:10+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000267s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ 2017-12-17T14:24:10+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'wx_group' [ RunTime:0.000503s ]
+[ 2017-12-17T14:24:10+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'sy_wx_group' [ RunTime:0.000620s ]
+[ 2017-12-17T14:24:10+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'sy_wx_group' ORDER BY ORDINAL_POSITION [ RunTime:0.000621s ]
+[ 2017-12-17T14:27:17+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000267s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-17T14:27:17+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-17T14:27:17+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001397s ]
+[ 2017-12-17T14:27:17+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-17T14:27:17+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000273s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ 2017-12-17T14:27:17+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'wx_replays' [ RunTime:0.000419s ]
+[ 2017-12-17T14:27:17+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'sy_wx_replays' [ RunTime:0.000418s ]
+[ 2017-12-17T14:27:17+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'sy_wx_replays' ORDER BY ORDINAL_POSITION [ RunTime:0.000594s ]

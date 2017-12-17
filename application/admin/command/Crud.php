@@ -889,10 +889,9 @@ EOD;
     protected function writeToFile($name, $data, $pathname)
     {
         $content = $this->getReplacedStub($name, $data);
-
         if (!is_dir(dirname($pathname)))
         {
-            mkdir(strtolower(dirname($pathname)), 0755, true);
+            mkdir(dirname($pathname), 777, true);
         }
         return file_put_contents($pathname, $content);
     }
